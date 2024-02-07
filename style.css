@@ -1,0 +1,71 @@
+body{
+    background-image: url("/static/background1.png");
+    background-size: cover;
+}
+
+#game-display{
+    text-align: center;
+    margin: 40px;
+    
+    
+}
+#game-title{
+    font-family: 'Mochain', sans-serif;
+    font-size:80px;
+}
+#start-button{
+    position: relative;
+    top:30vh;
+    background-color: inherit;
+    font-size: 50px;
+    font-family: 'Mochain', sans-serif;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+#main-game{
+    display: none;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+#hidden-word{
+    margin-bottom: 3vh;
+    font-size: xx-large;
+}
+#keyboard-div{
+    display: inline-block;
+    text-align: center;
+    margin-top: 16vh;
+    width: 40vw;
+    height: 30vh;
+}
+.key-button{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size:larger;
+}
+#snowman{
+    position: absolute;
+    width: 23vw;
+    left: 8vw;
+    bottom: 14vh;
+}
+#result-window{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+
+}
+#result{
+    text-align: center;
+    font-size:xx-large;
+    padding-bottom: 10px;
+    font-family: 'Mochain', sans-serif;
+}
+#restart-icon{
+    cursor: pointer;
+}
